@@ -1,0 +1,15 @@
+.navbar-brand, .navbar-brand:hover {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: #FF0000;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #C0C0C0;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
