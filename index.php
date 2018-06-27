@@ -13,13 +13,12 @@
         <title>Shiar Noralifkhan</title>
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-md bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">Shiar Noralifkhan</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
@@ -32,7 +31,7 @@
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">References</a>
+                            <a class="nav-link" href="#">Reference</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Blog</a>
