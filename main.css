@@ -1,7 +1,11 @@
+.bg-dark {
+    background-color: #404040 !important;
+}
+
 .navbar-brand, .navbar-brand:hover {
     font-family: 'Pacifico', cursive;
     font-size: 35px;
-    color: #FF0000;
+    color: #FF8000;
 }
 
 .nav-link {
