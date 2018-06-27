@@ -21,3 +21,9 @@
 .navbar-dark .navbar-toggler {
     border-color: #FFFFFF;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand, .navbar-brand:hover {
+        font-size: 25px;
+    }
+}
