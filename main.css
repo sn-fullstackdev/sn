@@ -1,5 +1,21 @@
-html {
-    background: url(bg001.jpg) no-repeat center center fixed;
+html, body, .p1, .p2, .p3, .p4{
+    height: 100%;
+}
+
+.p1 {
+    background: url(bg001.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.p2, .p4 {
+    background-color: #202020;
+}
+
+.p3 {
+    background: url(bg002.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,7 +52,7 @@ nav .container {
 
 @media only screen and (max-width: 768px) {
     html {
-        background: url(bg002.jpg) no-repeat left center fixed;
+        background: url(bg001.jpg) no-repeat left center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
