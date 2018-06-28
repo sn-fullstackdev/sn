@@ -52,7 +52,11 @@
 
         </div>
         <div class="p4">
-
+            <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand mx-auto" href="#">Copyright © 2018 Shiar Noralifkhan. All rights reserved.</a>
+                </div>
+            </nav>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

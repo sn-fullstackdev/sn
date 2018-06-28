@@ -26,11 +26,11 @@ html, body, .p1, .p2, .p3, .p4{
     background-color: transparent !important;
 }
 
-nav .container {
+.fixed-top .container {
     border-bottom: 1px solid #808080;
 }
 
-.navbar-brand, .navbar-brand:hover {
+.fixed-top .navbar-brand, .fixed-top  .navbar-brand:hover {
     font-family: 'Pacifico', cursive;
     font-size: 35px;
     color: #FF0000 !important;
@@ -50,9 +50,26 @@ nav .container {
     border-color: #FFFFFF;
 }
 
+.fixed-bottom .container {
+    border-top: 1px solid #808080;
+}
+
+.fixed-bottom .navbar-brand, .fixed-bottom  .navbar-brand:hover {
+    font-size: 10px;
+    color: #E0E0E0 !important;
+}
+
 @media only screen and (max-width: 768px) {
-    html {
-        background: url(bg001.jpg) no-repeat left center fixed;
+    .p1 {
+        background: url(bg001.jpg) no-repeat left center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .p3 {
+        background: url(bg002.jpg) no-repeat right center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
