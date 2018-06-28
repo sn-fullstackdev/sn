@@ -76,7 +76,7 @@ html, body, .p1, .p2, .p3, .p4{
         background-size: cover;
     }
 
-    .navbar-brand, .navbar-brand:hover {
+    .fixed-top .navbar-brand, .fixed-top .navbar-brand:hover {
         font-size: 25px;
     }
 }
